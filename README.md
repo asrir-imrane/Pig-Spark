@@ -25,4 +25,11 @@ Navigate to `scripts/pig/` and use `run_pagerank.sh` to initiate the PageRank co
 ### PySpark
 
 
+| Nombre de nœuds | Temps d'exécution | Dataproc Job id                         |
+|-----------------|-------------------|-----------------------------------------|
+| 2               | 1 h 22 min        | `8adfa467418740639f80428886007559`       |
+| 3               | 1 h 3 min         | `104ad0ee059d84dd7a108cb95c23387e1`      |
+| 4               | 58 min 15 s       | `4ecdd4e131e154d38b3e193019ed9cb09`      |
+| 5               | 59 min 13 s       | `d273d8af8251a474fa55d3a6cbbb3d87be`     |
+
 
