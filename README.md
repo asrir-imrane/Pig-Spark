@@ -43,6 +43,8 @@
 | 5               | 41min 39s         | `2b2acb5c8bd7c41b4bb50232d9ecc0bd` |
 
 ### 🔥 PySpark
+📁 Directory: scripts/puspark/
+🔧 Command: Use run.sh to initiate the PageRank computation.
 
 | Nombre de nœuds | Temps d'exécution | Dataproc Job ID |
 |:---------------:|:-----------------:|:---------------:|
