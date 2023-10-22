@@ -55,6 +55,11 @@
 
 ## 📊 Comparaison entre Pig et PySpark
 
+
+![Comparaison Pig vs PySpark](./graph/trinket_plot.png)
+
+*Le graphique ci-dessus montre la comparaison des temps d'exécution entre Pig et PySpark sur différents nombres de nœuds. Il est clair que la performance varie en fonction du nombre de nœuds et de la technologie utilisée.*
+
 ### Tendance générale
 - 📈 L'augmentation du nombre de nœuds réduit généralement le temps d'exécution pour les deux frameworks.
 
