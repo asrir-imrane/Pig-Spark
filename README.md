@@ -35,3 +35,23 @@ Navigate to `scripts/pig/` and use `run_pagerank.sh` to initiate the PageRank co
 | 5               | 59 min 13 s       | `d273d8af8251a474fa55d3a6cbbb3d87be`     |
 
 
+# Comparaison entre Pig et PySpark
+
+Ce projet vise à évaluer la performance de deux frameworks populaires de traitement de données, Pig et PySpark, en fonction du nombre de nœuds utilisés.
+
+![Comparaison Pig vs PySpark](C:\Users\asrir\OneDrive\Bureau\Pig-Spark\graph\trinket_plot.png)
+
+## Analyse
+
+Le graphe illustre le temps d'exécution des deux frameworks en fonction du nombre de nœuds.
+
+### Points clés:
+
+1. Pour les deux frameworks, l'augmentation du nombre de nœuds tend à réduire le temps d'exécution, indiquant une meilleure parallélisation avec plus de nœuds.
+2. Au début, Pig a une performance supérieure à celle de PySpark, surtout avec un nombre de nœuds réduit.
+3. À mesure que davantage de nœuds sont ajoutés, PySpark commence à rattraper Pig en termes de performance. En particulier, avec 5 nœuds, les temps d'exécution de Pig et PySpark sont presque équivalents.
+
+### Conclusion:
+
+Bien que Pig ait montré une meilleure performance au début, la différence de performance entre les deux frameworks diminue avec l'ajout de plus de nœuds. Il est crucial de tester ces frameworks avec diverses tâches et paramètres pour obtenir une évaluation complète.
+
