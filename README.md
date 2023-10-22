@@ -39,7 +39,7 @@ Navigate to `scripts/pig/` and use `run_pagerank.sh` to initiate the PageRank co
 
 Ce projet vise à évaluer la performance de deux frameworks populaires de traitement de données, Pig et PySpark, en fonction du nombre de nœuds utilisés.
 
-![Comparaison Pig vs PySpark](C:\Users\asrir\OneDrive\Bureau\Pig-Spark\graph\trinket_plot.png)
+![Comparaison Pig vs PySpark](./graph/trinket_plot.png)
 
 ## Analyse
 
