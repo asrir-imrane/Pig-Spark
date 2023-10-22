@@ -5,8 +5,8 @@ Ce repo fournit des directives étape par étape et des scripts pour configurer 
 ## 📚 Table of Contents
 - [**Setting Up on GCP**](./setup/gcp_setup.md)
 - [**Hadoop and Spark Installation & Configuration**](./setup/hadoop_spark_setup.md)
-- [**Running PageRank with Pig and PySpark**](#running-pagerank)
-- [**Monitoring Performance**](./monitoring/performance_monitoring.md)
+- [**Running PageRank with Pig and PySpark**](## 🚀 Running PageRank)
+
 
 ## 🚀 Running PageRank
 
