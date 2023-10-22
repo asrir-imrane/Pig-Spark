@@ -1,6 +1,25 @@
 # Hadoop/Spark Cluster on GCP with Pig and PySpark 🚀
+# 🎓 Faculté des Sciences et des Techniques - Nantes Université
 
-Ce repo fournit des directives étape par étape et des scripts pour configurer et exécuter un cluster Hadoop/Spark sur Google Cloud Platform (GCP) en utilisant Pig et PySpark pour l'implémentation de PageRank.
+---
+
+**Ce repo** fournit des directives étape par étape et des scripts pour configurer et exécuter un cluster Hadoop/Spark sur Google Cloud Platform (GCP). L'objectif principal est d'utiliser Pig et PySpark pour l'implémentation de PageRank.
+
+---
+
+### 📚 Gestion des données distribuées à large échelle
+
+👨‍🏫 **Professeur**: M. MOLLI Pascal  
+👩‍🎓 **Étudiants**:
+- ASRIR Imrane
+- JBARI Khaoula
+- AJOUTATE Safae
+
+---
+
+## 🚀 PageRank - comparaison Pig vs PySpark  
+📃 **Consigne**: [Lien vers la consigne](https://madoc.univ-nantes.fr/mod/assign/view.php?id=1523335)
+
 
 ## 📚 Table of Contents
 - [**Setting Up on GCP**](./setup/gcp_setup.md)
