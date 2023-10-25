@@ -65,19 +65,20 @@
 
 ### Performance de Pig vs PySpark
 - **Avec 2 nœuds** : Pig est plus lent que PySpark de 17 minutes.
-- **Avec 3 nœuds** : Pig est plus rapide que PySpark de 5 minutes.
-- **Avec 4 nœuds** : Pig est plus lent que PySpark de presque 10 minutes.
-- **Avec 5 nœuds** : Pig est plus lent que PySpark de 17 minutes et 34 secondes.
+- **Avec 3 nœuds** : Pig est en retard de 16 minutes par rapport à PySpark.
+- **Avec 4 nœuds** : Pig est en retard de 9 minutes et 16 secondes par rapport à PySpark.
+- **Avec 5 nœuds** : Pig est en avance de 1 minute et 26 secondes par rapport à PySpark.
 
 ### Efficacité de l'ajout de nœuds
-- **Pour Pig** : La réduction du temps d'exécution se stabilise après 3 nœuds.
-- **Pour PySpark** : Le temps d'exécution continue de diminuer même avec l'ajout du cinquième nœud.
+- **Pour Pig** : En passant de 2 à 5 nœuds, le temps d'exécution est réduit de 31 minutes. L'effet le plus significatif est observé entre 2 et 3 nœuds avec une réduction de 12 minutes.
+- **Pour PySpark** : La réduction du temps d'exécution est plus régulière, passant de 1h 5min à 49min 39s avec l'ajout de nœuds. La plus grande différence est observée entre 2 et 3 nœuds avec une réduction de 11 minutes.
 
 ### 📍 Points clés:
-1. L'ajout de nœuds améliore la parallélisation et réduit le temps d'exécution pour les deux frameworks.
-2. PySpark dépasse Pig en performance dans la plupart des configurations de nœuds, sauf avec 3 nœuds où Pig est légèrement plus rapide.
-3. L'efficacité de PySpark semble augmenter de manière plus constante avec l'ajout de nœuds par rapport à Pig.
+ 
+1. L'augmentation du nombre de nœuds favorise une exécution plus rapide pour les deux frameworks. Cela met en évidence l'importance de la parallélisation dans les traitements de données.
+2. Pig semble être un peu plus variable dans ses améliorations avec l'ajout de nœuds, alors que PySpark montre une tendance plus constante à réduie le temps d'exécution.
+3. Intéressant à noter, avec 5 nœuds, Pig parvient à surpasser PySpark, même si ce n'est que d'une petite marge.
 
 ## 🎯 Conclusion
 
-Même si Pig présente une meilleure performance dans la configuration à 3 nœuds, PySpark se montre généralement plus rapide dans les autres configurations. Il est recommandé d'utiliser PySpark pour des clusters avec un grand nombre de nœuds pour maximiser la performance. Cependant, les performances spécifiques peuvent varier selon la tâche, la configuration du cluster et d'autres paramètres, d'où la nécessité de réaliser des tests adaptés à l'environnement et aux besoins réels.
+Alors que PySpark domine en termes de performance dans la plupart des configurations, Pig semble avoir des moments où il peut être compétitif ou même surpasser PySpark, comme vu avec 5 nœuds. Cela souligne l'importance de tester et d'optimiser les configurations en fonction des besoins spécifiques de chaque situation. Il est essentiel de réaliser des tests pratiques pour déterminer le meilleur framework à utiliser selon le contexte
