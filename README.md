@@ -81,4 +81,4 @@
 
 ## 🎯 Conclusion
 
-Alors que PySpark domine en termes de performance dans la plupart des configurations, Pig semble avoir des moments où il peut être compétitif ou même surpasser PySpark, comme vu avec 5 nœuds. Cela souligne l'importance de tester et d'optimiser les configurations en fonction des besoins spécifiques de chaque situation. Il est essentiel de réaliser des tests pratiques pour déterminer le meilleur framework à utiliser selon le contexte
+L'étude comparative entre Pig et PySpark révèle des tendances intéressantes en matière de performance et d'efficacité lors de l'ajout de nœuds dans un environnement de traitement de données. Globalement, PySpark semble dominer en termes de performance dans la plupart des configurations, offrant une réduction plus constante du temps d'exécution avec l'ajout de nœuds. Cependant, Pig montre des moments où il peut être compétitif, voire surpasser PySpark, notamment avec 5 nœuds. Ces résultats soulignent l'importance de tester et d'optimiser les configurations en fonction des besoins spécifiques de chaque situation.
